@@ -1,0 +1,51 @@
+.landing-page {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.landing-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-page .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.landing-page a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.landing-page a:hover {
+  background-color: #2980b9;
+}
+
+.landing-page .secondary-cta {
+  background-color: var(--secondary-color);
+}
+
+.landing-page .secondary-cta:hover {
+  background-color: #34495e;
+}
+
+.sukriti{
+  color: red
+}

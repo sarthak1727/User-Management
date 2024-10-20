@@ -1,0 +1,58 @@
+.user-list {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease;
+}
+
+.user-list li:last-child {
+  border-bottom: none;
+}
+
+.user-list li:hover {
+  background-color: #f8f9fa;
+}
+
+.user-list .user-info {
+  flex-grow: 1;
+}
+
+.user-list .user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.user-list button {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.user-list .edit-button {
+  background-color: #f39c12;
+}
+
+.user-list .edit-button:hover {
+  background-color: #e67e22;
+}
+
+.user-list .delete-button {
+  background-color: #e74c3c;
+}
+
+.user-list .delete-button:hover {
+  background-color: #c0392b;
+}

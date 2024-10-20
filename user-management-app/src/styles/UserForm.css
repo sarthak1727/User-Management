@@ -1,0 +1,33 @@
+.user-form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form input {
+  margin-bottom: 15px;
+}
+
+.user-form button {
+  margin-top: 10px;
+}
+
+.user-form .button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.user-form .cancel-button {
+  background-color: #95a5a6;
+}
+
+.user-form .cancel-button:hover {
+  background-color: #7f8c8d;
+}
