@@ -100,16 +100,7 @@ The backend provides the following API endpoints:
 - PUT /api/users/:id: Update a user (requires authentication)
 - DELETE /api/users/:id: Delete a user (requires authentication)
 
-## Contributing
 
-Contributions to this project are welcome. Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (git checkout -b feature/AmazingFeature)
-3. Make your changes
-4. Commit your changes (git commit -m 'Add some AmazingFeature')
-5. Push to the branch (git push origin feature/AmazingFeature)
-6. Open a Pull Request
 
 
 ## Contact
